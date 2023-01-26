@@ -26,6 +26,7 @@ LockonDefaultZoom	6.000000
 CameraProductionOfAction	1
 FPSCameraInterpolationType	1
 FPSCameraVerticalInterpolation	0
+LegacyCameraCorrectionFix	1
 LegacyCameraType	1
 EventCameraAutoControl	1
 CameraLookBlinkType	0
@@ -46,6 +47,9 @@ GroundTargetCursorCorrectType	0
 GroundTargetActionExcuteType	0
 AutoNearestTarget	0
 AutoNearestTargetType	0
+RightClickExclusionPC	0
+RightClickExclusionBNPC	0
+RightClickExclusionMinion	0
 TurnSpeed	100
 FootEffect	0
 LegacySeal	1
@@ -78,7 +82,7 @@ HotbarCommon04	0
 HotbarCommon05	1
 HotbarCommon06	0
 HotbarCommon07	1
-HotbarCommon08	1
+HotbarCommon08	0
 HotbarCommon09	1
 HotbarCommon10	0
 HotbarCrossCommon01	0
@@ -268,6 +272,7 @@ NamePlateDispSize	0
 ActiveInfo	0
 PartyList	0
 PartyListStatus	10
+PartyListStatusTimer	1
 EnemyList	0
 TargetInfo	0
 Gil	0
@@ -280,8 +285,8 @@ HousingLocatePreview	1
 Log	0
 LogTell	0
 LogFontSize	12
-LogTabName2	Free　Company
-LogTabName3	Solace
+LogTabName2	Solace
+LogTabName3	CWLS　Dynamis
 LogTabFilter0	0
 LogTabFilter1	1
 LogTabFilter2	2
@@ -351,12 +356,12 @@ LogPermeationRateLog4	30
 LogFlyingHeightMaxErrDisp	0
 LogCrossWorldName	1
 LogDragResize	1
-ChatType	2
+ChatType	18
 ShopSell	0
 ColorSay	16316664
 ColorShout	16754278
-ColorTell	16759008
-ColorParty	4278255615
+ColorTell	4294902015
+ColorParty	65535
 ColorAlliance	16744448
 ColorLS1	13959039
 ColorLS2	13959039
@@ -430,8 +435,8 @@ FlyTextDispSize	0
 PopUpTextDispSize	0
 DetailDispDelayType	0
 PartyListSortTypeTank	0
-PartyListSortTypeHealer	2
-PartyListSortTypeDps	2
+PartyListSortTypeHealer	0
+PartyListSortTypeDps	0
 PartyListSortTypeOther	0
 RatioHpDisp	1
 BuffDispType	0
@@ -446,6 +451,10 @@ ContentsFinderUseLangTypeFR	0
 ItemInventryWindowSizeType	2
 ItemInventryRetainerWindowSizeType	1
 BattleTalkShowFace	1
+BannerContentsDispType	1
+BannerContentsNotice	1
+MipDispType	1
+BannerContentsOrderType	0
 EmoteTextType	1
 IsEmoteSe	0
 EmoteSeType	0
